@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle situs-gacor-deposit-pulsa-tanpa-potongan-agen-bo-terpercaya'
+      'command': 'situs-gacor-deposit-pulsa-tanpa-potongan-agen-bo-terpercaya:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'situs-gacor-deposit-pulsa-tanpa-potongan-agen-bo-terpercaya'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'situs-gacor-deposit-pulsa-tanpa-potongan-agen-bo-terpercaya:toggle'
+        }
+      ]
+    ]
+  }
+]
